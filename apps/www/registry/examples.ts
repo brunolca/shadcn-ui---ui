@@ -206,6 +206,12 @@ export const examples: Registry = [
     files: ["example/carousel-orientation.tsx"],
   },
   {
+    name: "carousel-content-styling",
+    type: "components:example",
+    registryDependencies: ["carousel"],
+    files: ["example/carousel-content-styling.tsx"],
+  },
+  {
     name: "carousel-api",
     type: "components:example",
     registryDependencies: ["carousel"],

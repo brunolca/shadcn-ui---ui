@@ -158,6 +158,22 @@ Use the `orientation` prop to set the orientation of the carousel.
 </Carousel>
 ```
 
+### Content Styling
+
+Use the `classname` prop of `CarouselContent` to style the Carousel container.
+
+<ComponentPreview name="carousel-content-styling" />
+
+```tsx showLineNumbers /vertical | horizontal/
+<Carousel>
+  <CarouselContent className="rounded-lg">
+    <CarouselItem>...</CarouselItem>
+    <CarouselItem>...</CarouselItem>
+    <CarouselItem>...</CarouselItem>
+  </CarouselContent>
+</Carousel>
+```
+
 ## Options
 
 You can pass options to the carousel using the `opts` prop. See the [Embla Carousel docs](https://www.embla-carousel.com/api/options/) for more information.
